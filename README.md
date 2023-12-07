@@ -8,19 +8,19 @@ First-Site is a web project dedicated to the exploration, development, and testi
 The First-Site project is initiated and maintained by an associate software engineer who is eager to enhance and put their software engineering skills to the test. The project will encompass various aspects of web development and software engineering, making it an excellent opportunity to learn and grow in the field.
 
 ## Features
-'*' Movie Database: A comprehensive collection of movies with detailed information such as title, genre, release date, and synopsis.
+- Movie Database: A comprehensive collection of movies with detailed information such as title, genre, release date, and synopsis.
 
-'*' User Accounts: Users can create accounts, log in, and manage their profiles.
+- User Accounts: Users can create accounts, log in, and manage their profiles.
 
-'*' Movie Rental and Purchase: Users can browse movies and choose to either rent or purchase them.
+- Movie Rental and Purchase: Users can browse movies and choose to either rent or purchase them.
 
-'*' Search and Filter: A search feature and filters allow users to easily find the movies they want.
+- Search and Filter: A search feature and filters allow users to easily find the movies they want.
 
-'*' Reviews and Ratings: Users can leave reviews and rate the movies they have watched.
+- Reviews and Ratings: Users can leave reviews and rate the movies they have watched.
 
-'*' Responsive Design: The website will be designed to work seamlessly on various devices and screen sizes.
+- Responsive Design: The website will be designed to work seamlessly on various devices and screen sizes.
 
-'*' Secure Transactions: Payment processing will be securely implemented to ensure user data safety.
+- Secure Transactions: Payment processing will be securely implemented to ensure user data safety.
 
 ## Getting Started
 ### Prerequisites

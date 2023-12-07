@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <title>FlaskApp</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style/stylesheet.css') }}">
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <h2>Welcome to FlaskApp!</h2>
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">Movie Store</div>
+
+        <!-- NAV MENU -->
+        <ul class="nav-links">
+
+            <!-- USING CHECKBOX HACK -->
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+
+            <div class="menu">
+                
+                <li><a href="#">Home</a></li>
+                <li class="navbar_list">
+                    <a href="#">Movies</a>
+                    <!-- MOVIE DROPDOWN -->
+                    <ul class="dropdown">
+                        <li><a href="#">Pre Order</a></li>
+                        <li><a href="#">Browse</a></li>
+                        <li><a href="#">A - Z</a></li>
+                        <li><a href="#">New To Rent</a></li>
+                        <li><a href="#">New To Buy</a></li>
+                    </ul>
+                </li>
+                <li class="navbar_list">
+                    <a href="#">TV Shows</a>
+                    <!-- SHOW DROPDOWN -->
+                    <ul class="dropdown">
+                        <li><a href="#">Pre Order</a></li>
+                        <li><a href="#">Browse</a></li>
+                        <li><a href="#">A - Z</a></li>
+                        <li><a href="#">New To Rent</a></li>
+                        <li><a href="#">New To Buy</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Collections</a></li>
+            </div>
+        </ul>
+    </nav>
 </body>
 </html>
