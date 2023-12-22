@@ -98,17 +98,17 @@ Installation
  source venv/bin/activate
  ```
  - You'll see the name of the virtual environment in parentheses at the beginning of your terminal prompt.
-6. Install project dependencies. 
- ```
- pip install -r requirements.txt
- ```
-7. Install Flask.
+ 6. Install Flask.
  ```
  pip install Flask
  ```
  - For more instructions on how to install Flask use the link below:
  ```
  https://flask.palletsprojects.com/en/3.0.x/installation/
+ ```
+7. Install project dependencies. 
+ ```
+ pip install -r requirements.txt
  ```
 8. Deactivate the virtual environment.
  - When you are done working in the virtual environment, deactive using;
