@@ -119,9 +119,9 @@ Installation
  - Add `venv` to `.gitignore`: If you're using Git, add the virtual environment directory to your `.gitignore` file to prevent it from being committed to your repository.
 
 > [!NOTE]
- - Add the following two later:
- - Set up your database and update the configuration in config.py to point to your database.
- -  Initialize the database.
+> - Add the following two later:
+> - Set up your database and update the configuration in config.py to point to your database.
+> -  Initialize the database.
 
 ## Contributing
 Contributions to this project are welcome! Feel free to open issues, submit pull requests, or provide feedback to help improve First-Site.
