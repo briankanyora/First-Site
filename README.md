@@ -26,26 +26,35 @@ The First-Site project is initiated and maintained by an associate software engi
 ### Windows Prerequisites
 Before setting up and running First-Site, ensure you have the following software installed:
  - Python 3.10 >
- - Flask
-
+ ```
+ https://www.python.org/downloads/windows/
+ ```
 Installation
 1. Clone this repository to your local machine.
-```
-git clone https://github.com/briankanyora/First-Site
-```
+ ```
+ git clone https://github.com/briankanyora/First-Site
+ ```
 2. Navigate to the project directory. 
-```
-cd first-site
-```
+ ```
+ cd first-site
+ ```
 3. Create a virtual environment and activate it.
-```
-python -m venv venv
-venv\Scripts\activate
-```
-4. Install project dependencies. 
-```
-pip install -r requirements.txt
-```
+ ```
+ python -m venv venv
+ venv\Scripts\activate
+ ```
+4. Install Flask.
+ ```
+ pip install Flask
+ ```
+ - For more instructions on how to install Flask use the link below:
+ ```
+ https://flask.palletsprojects.com/en/3.0.x/installation/
+ ```
+5. Install project dependencies. 
+ ```
+ pip install -r requirements.txt
+ ```
 ### MacOS Prerequisites
 Before setting up and running First-Site, ensure you have the following software installed:
 
@@ -89,22 +98,30 @@ Installation
  source venv/bin/activate
  ```
  - You'll see the name of the virtual environment in parentheses at the beginning of your terminal prompt.
-6. Install project dependencies. 
+ 6. Install Flask.
+ ```
+ pip install Flask
+ ```
+ - For more instructions on how to install Flask use the link below:
+ ```
+ https://flask.palletsprojects.com/en/3.0.x/installation/
+ ```
+7. Install project dependencies. 
  ```
  pip install -r requirements.txt
  ```
-7. Deactivate the virtual environment.
+8. Deactivate the virtual environment.
  - When you are done working in the virtual environment, deactive using;
  ```
  deactivate
  ```
-8. Additional Tips:
+9. Additional Tips:
  - Add `venv` to `.gitignore`: If you're using Git, add the virtual environment directory to your `.gitignore` file to prevent it from being committed to your repository.
 
 > [!NOTE]
-> Add the following two later:
-> 5. Set up your database and update the configuration in config.py to point to your database.
-> 6. Initialize the database.
+> - Add the following two later:
+> - Set up your database and update the configuration in config.py to point to your database.
+> -  Initialize the database.
 
 ## Contributing
 Contributions to this project are welcome! Feel free to open issues, submit pull requests, or provide feedback to help improve First-Site.
