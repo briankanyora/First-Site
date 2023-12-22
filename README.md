@@ -23,12 +23,10 @@ The First-Site project is initiated and maintained by an associate software engi
 - Secure Transactions: Payment processing will be securely implemented to ensure user data safety.
 
 ## Getting Started
-### Prerequisites
+### Windows Prerequisites
 Before setting up and running First-Site, ensure you have the following software installed:
-
-Python
-Flask
-A suitable database system (e.g., SQLite, MySQL, PostgreSQL)
+ - Python 3.10 >
+ - Flask
 
 Installation
 1. Clone this repository to your local machine.
@@ -48,6 +46,61 @@ venv\Scripts\activate
 ```
 pip install -r requirements.txt
 ```
+### MacOS Prerequisites
+Before setting up and running First-Site, ensure you have the following software installed:
+
+ - Python 3.10 >
+ ```
+ https://www.python.org/downloads/macos/
+ ```
+ - Homebrew: Paste the code below in macOS Terminal
+ ```
+ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+ ```
+You may need to restart your machine after the software is installed.
+
+Installation
+1. Clone this repository to your local machine:
+ ```
+ git clone https://github.com/briankanyora/First-Site
+ ```
+2. Navigate to the project directory:
+ ```
+ cd First-Site
+ ```
+3. Install virtualenv.
+ - Open terminal window. 
+ - If you dont have virtualenv installed, run the following command:
+```
+ pip install virtualenv
+```
+4. Create the virtual environment.
+ - Run the following command to create a virtual environment named ```venv```:
+```
+ virtualenv venv
+```
+ - If you want to use a specific Python version, use the `-p` flag:
+ ```
+ virtualenv -p python3.10 venv
+ ```
+5. Activate the virtual environment.
+ - Run the following command to activate the virtual environment:
+ ```
+ source venv/bin/activate
+ ```
+ - You'll see the name of the virtual environment in parentheses at the beginning of your terminal prompt.
+6. Install project dependencies. 
+ ```
+ pip install -r requirements.txt
+ ```
+7. Deactivate the virtual environment.
+ - When you are done working in the virtual environment, deactive using;
+ ```
+ deactivate
+ ```
+8. Additional Tips:
+ - Add `venv` to `.gitignore`: If you're using Git, add the virtual environment directory to your `.gitignore` file to prevent it from being committed to your repository.
+
 > [!NOTE]
 > Add the following two later:
 > 5. Set up your database and update the configuration in config.py to point to your database.
